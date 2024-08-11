@@ -1,9 +1,9 @@
 pipeline {
     agent any 
     stages {
-        stage('Master branch') { 
+        stage('development branch') { 
             steps {
-                sh 'echo "This is master multi branch code testing"'
+                sh 'echo "This is development branch code testing"'
             }
         }
         stage('Sprint1') { 
